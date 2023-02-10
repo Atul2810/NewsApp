@@ -6,7 +6,7 @@ function News({news}){
       <img src={news.urlToImage} alt={news.title} />
       <h2>{news.title}</h2>
       <p>{news.description}</p>
-      <button onClick={()=>window.open(news.url)}>Read More</button>
+      <button onClick={()=>window.open(news.url)}>Read More about</button>
     </div>
   )
 }
