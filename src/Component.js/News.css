@@ -1,0 +1,20 @@
+.News{
+    padding:20px;
+    border:2px solid black;
+    margin-top:5px;
+    text-align: center;
+}
+img{
+    width:100%;
+    margin-bottom:20px;
+}
+h2{
+    margin-bottom: 20px;
+}
+p{
+    color:#333;
+}
+button{
+    padding:12px 22px;
+    margin-top:10px;
+}
