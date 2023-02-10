@@ -27,7 +27,7 @@ function Useeffecthooks() {
     <div>
       <p>{counter}</p>
       <input type="text" onChange={(event)=>setname(event.target.value)} />
-      <button onClick={()=>setcounter(counter+1)}>Increment</button>
+      <button onClick={()=>setcounter(counter+1)}>Increment Counter</button>
     </div>
   )
 }
